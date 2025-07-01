@@ -8,31 +8,30 @@
 //   inputelement.value = '';
 // });
 
-
-// Use Vue.js to create a simple app that allows users to add items to a list.const app = 
+// Use Vue.js to create a simple app that allows users to add items to a list.const app =
 
 // One way to do this is to use vue.js, a progressive JavaScript framework for building user interfaces.
 const app = Vue.createApp({
   data() {
     return {
-      enteredValue: '',
-      items: []
+      enteredValue: "",
+      items: [],
     };
   },
   methods: {
     addItem() {
       this.items.push(this.enteredValue);
-      this.enteredValue = '';
-    }
-  }
+      this.enteredValue = "";
+    },
+  },
 });
-app.mount('#app');
+app.mount("#app");
 
 // Secound way to do this is to use vue.js, a progressive JavaScript framework for building user interfaces.
 // Vue.createApp({
 //   data() {
 //     return {
-//       enteredValue: '',  
+//       enteredValue: '',
 //       items: []
 //     };
 //   },
@@ -41,7 +40,7 @@ app.mount('#app');
 //       this.items.push(this.enteredValue);
 //       this.enteredValue = '';
 //     }
-//   }  
+//   }
 // }).mount('#app');
 
 // Third way to do this is to use vue.js, a progressive JavaScript framework for building user interfaces.
@@ -60,4 +59,3 @@ app.mount('#app');
 //     }
 //   }
 // }).mount('#app');
-
